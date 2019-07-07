@@ -1,0 +1,39 @@
+<RCC>
+    <qresource prefix="/Qtmainwindow">
+        <file>123 (1).jpg</file>
+        <file>123 (2).jpg</file>
+        <file>123 (3).jpg</file>
+        <file>123 (4).jpg</file>
+        <file>1.png</file>
+    </qresource>
+    <qresource prefix="/new/background">
+        <file>timg (1).jpg</file>
+        <file>timg (3).jpg</file>
+        <file>timg (4).jpg</file>
+        <file>timg (5).jpg</file>
+        <file>timg (6).jpg</file>
+        <file>timg (7).jpg</file>
+        <file>u=1423570501,3492583050&amp;fm=15&amp;gp=0.jpg</file>
+        <file>u=1612622168,2568214553&amp;fm=26&amp;gp=0.jpg</file>
+        <file>u=3395098907,4156213685&amp;fm=26&amp;gp=0.jpg</file>
+    </qresource>
+    <qresource prefix="/new/Se">
+        <file>1.png</file>
+        <file>22.bmp</file>
+        <file>123 (1).jpg</file>
+        <file>123 (2).jpg</file>
+        <file>123 (3).jpg</file>
+        <file>123 (4).jpg</file>
+        <file>timg (1).jpg</file>
+        <file>timg (3).jpg</file>
+        <file>timg (4).jpg</file>
+        <file>timg (5).jpg</file>
+        <file>timg (6).jpg</file>
+        <file>timg (7).jpg</file>
+        <file>timg (9).jpg</file>
+        <file>u=1423570501,3492583050&amp;fm=15&amp;gp=0.jpg</file>
+        <file>u=1612622168,2568214553&amp;fm=26&amp;gp=0.jpg</file>
+        <file>u=3395098907,4156213685&amp;fm=26&amp;gp=0.jpg</file>
+    </qresource>
+    <qresource prefix="/new/prefix1"/>
+</RCC>

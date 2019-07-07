@@ -1,0 +1,45 @@
+﻿生成启动时间为 2019/7/7 2:03:33。
+     1>项目“C:\Users\hp\Documents\Tencent Files\1016598068\FileRecv\Qtmainwindow\Qtmainwindow\Qtmainwindow.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>CustomBuild:
+         Moc'ing Qtmainwindow.h...
+         Uic'ing Qtmainwindow.ui...
+         Moc'ing Qtgame.h...
+         Moc'ing Qtsetting.h...
+         Rcc'ing Qtmainwindow.qrc...
+         Uic'ing Qtsetting.ui...
+         Uic'ing Qtgame.ui...
+         Rcc'ing Resource.qrc...
+         Rcc'ing Qtsetting.qrc...
+       ClCompile:
+         D:\Program Files\VS2015\VC\bin\x86_amd64\CL.exe /c /I.\GeneratedFiles /I. /IF:\QT\5.12.3\msvc2015_64\include /I.\GeneratedFiles\Debug /IF:\QT\5.12.3\msvc2015_64\include\QtCore /IF:\QT\5.12.3\msvc2015_64\include\QtGui /IF:\QT\5.12.3\msvc2015_64\include\QtANGLE /IF:\QT\5.12.3\msvc2015_64\include\QtWidgets /IF:\QT\5.12.3\msvc2015_64\include\QtMultimedia /IF:\QT\5.12.3\msvc2015_64\include\QtMultimediaWidgets /Zi /nologo /W1 /WX- /MP /Od /D UNICODE /D _UNICODE /D WIN32 /D _ENABLE_EXTENDED_ALIGNED_STORAGE /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /D QT_MULTIMEDIA_LIB /D QT_MULTIMEDIAWIDGETS_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Debug\\" /Fd"x64\Debug\vc140.pdb" /Gd /TP /errorReport:prompt GeneratedFiles\Debug\moc_Qtgame.cpp GeneratedFiles\Debug\moc_Qtmainwindow.cpp GeneratedFiles\Debug\moc_Qtsetting.cpp main.cpp Qtgame.cpp Qtmainwindow.cpp Qtsetting.cpp
+         moc_Qtgame.cpp
+         moc_Qtmainwindow.cpp
+         moc_Qtsetting.cpp
+         main.cpp
+         Qtgame.cpp
+         Qtmainwindow.cpp
+         Qtsetting.cpp
+         D:\Program Files\VS2015\VC\bin\x86_amd64\CL.exe /c /I.\GeneratedFiles /I. /IF:\QT\5.12.3\msvc2015_64\include /I.\GeneratedFiles\Debug /IF:\QT\5.12.3\msvc2015_64\include\QtCore /IF:\QT\5.12.3\msvc2015_64\include\QtGui /IF:\QT\5.12.3\msvc2015_64\include\QtANGLE /IF:\QT\5.12.3\msvc2015_64\include\QtWidgets /IF:\QT\5.12.3\msvc2015_64\include\QtMultimedia /IF:\QT\5.12.3\msvc2015_64\include\QtMultimediaWidgets /Zi /nologo /W1 /WX- /MP /Od /D UNICODE /D _UNICODE /D WIN32 /D _ENABLE_EXTENDED_ALIGNED_STORAGE /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /D QT_MULTIMEDIA_LIB /D QT_MULTIMEDIAWIDGETS_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Debug\\" /Fd"x64\Debug\vc140.pdb" /Gd /TP /errorReport:prompt GeneratedFiles\qrc_Qtmainwindow.cpp GeneratedFiles\qrc_Qtsetting.cpp GeneratedFiles\qrc_Resource.cpp
+         qrc_Qtmainwindow.cpp
+         qrc_Qtsetting.cpp
+         qrc_Resource.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /l"0x0409" /nologo /fo"x64\Debug\Qtmainwindow.res" Qtmainwindow.rc 
+       Link:
+         D:\Program Files\VS2015\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\hp\Documents\Tencent Files\1016598068\FileRecv\Qtmainwindow\x64\Debug\\Qtmainwindow.exe" /NOLOGO /LIBPATH:F:\QT\5.12.3\msvc2015_64\lib qtmaind.lib Qt5Cored.lib Qt5Guid.lib Qt5Widgetsd.lib Qt5Multimediad.lib Qt5MultimediaWidgetsd.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\hp\Documents\Tencent Files\1016598068\FileRecv\Qtmainwindow\x64\Debug\Qtmainwindow.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\hp\Documents\Tencent Files\1016598068\FileRecv\Qtmainwindow\x64\Debug\Qtmainwindow.lib" /MACHINE:X64 x64\Debug\Qtmainwindow.res
+         x64\Debug\moc_Qtgame.obj
+         x64\Debug\moc_Qtmainwindow.obj
+         x64\Debug\moc_Qtsetting.obj
+         x64\Debug\qrc_Qtmainwindow.obj
+         x64\Debug\qrc_Qtsetting.obj
+         x64\Debug\qrc_Resource.obj
+         x64\Debug\main.obj
+         x64\Debug\Qtgame.obj
+         x64\Debug\Qtmainwindow.obj
+         x64\Debug\Qtsetting.obj
+         Qtmainwindow.vcxproj -> C:\Users\hp\Documents\Tencent Files\1016598068\FileRecv\Qtmainwindow\x64\Debug\Qtmainwindow.exe
+     1>已完成生成项目“C:\Users\hp\Documents\Tencent Files\1016598068\FileRecv\Qtmainwindow\Qtmainwindow\Qtmainwindow.vcxproj”(Rebuild 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:22.15

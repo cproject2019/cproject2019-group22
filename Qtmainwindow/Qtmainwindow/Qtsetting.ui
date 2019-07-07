@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Qtsetting</class>
+ <widget class="QWidget" name="Qtsetting">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>701</width>
+    <height>421</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Qtsetting</string>
+  </property>
+  <property name="layoutDirection">
+   <enum>Qt::LeftToRight</enum>
+  </property>
+  <widget class="QPushButton" name="back1">
+   <property name="geometry">
+    <rect>
+     <x>570</x>
+     <y>360</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>字魂55号-龙吟手书</family>
+     <pointsize>13</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/new/background/22222.png);</string>
+   </property>
+   <property name="text">
+    <string>返回</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>80</y>
+     <width>441</width>
+     <height>251</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout_4">
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_7">
+        <item>
+         <widget class="QLabel" name="label_8">
+          <property name="font">
+           <font>
+            <family>字魂55号-龙吟手书</family>
+           </font>
+          </property>
+          <property name="text">
+           <string>音量大小：</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QSlider" name="soundbs">
+          <property name="maximum">
+           <number>100</number>
+          </property>
+          <property name="pageStep">
+           <number>2</number>
+          </property>
+          <property name="value">
+           <number>27</number>
+          </property>
+          <property name="sliderPosition">
+           <number>27</number>
+          </property>
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="invertedAppearance">
+           <bool>false</bool>
+          </property>
+          <property name="tickPosition">
+           <enum>QSlider::TicksBelow</enum>
+          </property>
+          <property name="tickInterval">
+           <number>2</number>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <item>
+       <widget class="QLabel" name="label_3">
+        <property name="font">
+         <font>
+          <family>字魂55号-龙吟手书</family>
+         </font>
+        </property>
+        <property name="text">
+         <string>音效开关：</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QRadioButton" name="soundon">
+        <property name="font">
+         <font>
+          <family>字魂55号-龙吟手书</family>
+         </font>
+        </property>
+        <property name="text">
+         <string>开</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QRadioButton" name="soundoff">
+        <property name="font">
+         <font>
+          <family>字魂55号-龙吟手书</family>
+         </font>
+        </property>
+        <property name="text">
+         <string>关</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_3">
+      <item>
+       <widget class="QLabel" name="label_4">
+        <property name="font">
+         <font>
+          <family>字魂55号-龙吟手书</family>
+         </font>
+        </property>
+        <property name="text">
+         <string>电脑难度：</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QRadioButton" name="dsimple">
+        <property name="font">
+         <font>
+          <family>字魂55号-龙吟手书</family>
+         </font>
+        </property>
+        <property name="text">
+         <string>简单</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QRadioButton" name="dmid">
+        <property name="font">
+         <font>
+          <family>字魂55号-龙吟手书</family>
+         </font>
+        </property>
+        <property name="text">
+         <string>中等</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QRadioButton" name="ddifficult">
+        <property name="font">
+         <font>
+          <family>字魂55号-龙吟手书</family>
+         </font>
+        </property>
+        <property name="text">
+         <string>困难</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_4">
+      <item>
+       <widget class="QLabel" name="label_5">
+        <property name="font">
+         <font>
+          <family>字魂55号-龙吟手书</family>
+         </font>
+        </property>
+        <property name="text">
+         <string>操作模式：</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QRadioButton" name="mouse">
+        <property name="font">
+         <font>
+          <family>字魂55号-龙吟手书</family>
+         </font>
+        </property>
+        <property name="text">
+         <string>鼠标</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QRadioButton" name="key">
+        <property name="font">
+         <font>
+          <family>字魂55号-龙吟手书</family>
+         </font>
+        </property>
+        <property name="text">
+         <string>键盘</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_5">
+      <item>
+       <widget class="QLabel" name="label">
+        <property name="font">
+         <font>
+          <family>字魂55号-龙吟手书</family>
+         </font>
+        </property>
+        <property name="text">
+         <string>背景音乐：</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QRadioButton" name="music1">
+        <property name="font">
+         <font>
+          <family>字魂55号-龙吟手书</family>
+         </font>
+        </property>
+        <property name="text">
+         <string>音乐1</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QRadioButton" name="music2">
+        <property name="font">
+         <font>
+          <family>字魂55号-龙吟手书</family>
+         </font>
+        </property>
+        <property name="text">
+         <string>音乐2</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QRadioButton" name="music3">
+        <property name="font">
+         <font>
+          <family>字魂55号-龙吟手书</family>
+         </font>
+        </property>
+        <property name="text">
+         <string>音乐3</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>701</width>
+     <height>421</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/new/prefix1/123 (3).jpg);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>20</y>
+     <width>121</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>字魂55号-龙吟手书</family>
+     <pointsize>27</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>设置</string>
+   </property>
+  </widget>
+  <zorder>label_2</zorder>
+  <zorder>back1</zorder>
+  <zorder>verticalLayoutWidget</zorder>
+  <zorder>label_6</zorder>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="Resource.qrc"/>
+ </resources>
+ <connections/>
+</ui>
